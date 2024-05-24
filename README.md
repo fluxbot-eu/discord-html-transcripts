@@ -5,4 +5,5 @@
 ![GitHub package.json version](https://img.shields.io/github/package-json/v/ItzDerock/discord-html-transcripts)
 ![GitHub Repo stars](https://img.shields.io/github/stars/ItzDerock/discord-html-transcripts?style=social)
 
-Forked from **[ItzDerock/discord-html-transcripts](https://github.com/ItzDerock/discord-html-transcripts#readme)**.
+> Forked from **[ItzDerock/discord-html-transcripts](https://github.com/ItzDerock/discord-html-transcripts#readme)**
+> Edited by [**John-Bot**](https://github.com/johnbotapp)
