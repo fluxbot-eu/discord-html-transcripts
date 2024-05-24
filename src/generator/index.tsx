@@ -78,11 +78,11 @@ export default async function render({ messages, channel, callbacks, ...options 
             {/* styles */}
             <link
               rel="stylesheet"
-              href={`https://cdn.fluxbot.eu/assets/css/transcripts.css`}
+              href={`https://cdn.johnbot.app/css/transcripts.css`}
             />
             {/* scripts */}
             <script
-              src='https://cdn.fluxbot.eu/assets/js/transcripts.js'
+              src='https://cdn.johnbot.app/js/transcripts.js'
             ></script>
             {/* profiles */}
             <script
