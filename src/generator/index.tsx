@@ -128,7 +128,7 @@ export default async function render({ messages, channel, callbacks, ...options 
 
         {/* footer */}
         <footer>
-          {channel.isDMBased() ? 'This archive has been generated on the' : `${channel.guild?.translate?.("tickets/attachments:ARCHIVE_GENERATE") ?? "This archive has been generated on the"}`}
+          {channel.isDMBased() ? 'This archive has been generated on the' : `${channel.guild?.translate?.("tickets/attachments:ARCHIVE_GENERATE") ?? "This archive has been generated on the"} - From the work of [ItzDerock](https://github.com/ItzDerock/discord-html-transcripts) & [John-Bot](https://github.com/johnbotapp/discord-html-transcripts)`}
           {' '}
           <time id="footer-timestamp" data-timestamp={Math.floor(new Date().getTime() / 1000)} data-locale={options.locale ?? 'en-US'}></time>
         </footer>
