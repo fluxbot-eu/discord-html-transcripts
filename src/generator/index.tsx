@@ -128,9 +128,10 @@ export default async function render({ messages, channel, callbacks, ...options 
 
         {/* footer */}
         <footer>
-          {channel.isDMBased() ? 'This archive has been generated on the' : `${channel.guild?.translate?.("tickets/attachments:ARCHIVE_GENERATE") ?? "This archive has been generated on the"} - From the work of @ItzDerock & @John-Bot`}
+          {channel.isDMBased() ? 'This archive has been generated on the' : `${channel.guild?.translate?.("tickets/attachments:ARCHIVE_GENERATE") ?? "This archive has been generated on the"}`}
           {' '}
           <time id="footer-timestamp" data-timestamp={Math.floor(new Date().getTime() / 1000)} data-locale={options.locale ?? 'en-US'}></time>
+          - From the work of @ItzDerock & @John-Bot
         </footer>
 
         {/* context menu */}
